@@ -5,7 +5,7 @@ import image1 from "../assets/images/pink-cheeked-redhead-woman-plays-with-her-p
 import Custombutton from "../components/Custombutton";
 const Home = () => {
   return (
-    <Box
+    <Box id="home"
       sx={{
         display: "flex",
         backgroundColor: "#EAD9CE",
@@ -47,15 +47,14 @@ const Home = () => {
             lineHeight: "70px",
             display:{ xs: "inline", sm: "inline", md: "inline", lg: "block" },
             textAlign: 'start',
-            
             fontFamily:"Bastiken"
           }}
         >
-          <Box>Your One-Stop Destination</Box>
+          <Box >Your One-Stop Destination</Box>
           <Box>for Unique and Exquisite</Box>
           <Box>Jewelry Pieces</Box>
         </Box>
-          <Box>Here, we offer various types of jewelry, including necklaces,</Box>
+          <Box sx={{fontWeight:'400'}}>Here, we offer various types of jewelry, including necklaces,</Box>
           <Box>bracelets, earrings, and rings. From classic designs to modern</Box>
           <Box>styles, we have something for everyone.</Box>
           <Box sx={{ display: "flex", justifyContent: "flex-start" ,marginTop:"30px"}}>

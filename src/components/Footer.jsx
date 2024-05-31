@@ -82,7 +82,7 @@ import pintrest from "../assets/images/Pinterest.png"
 
 const Footer = () => {
   return (
-    <Box sx={{ backgroundColor: '#EAD9CE', paddingTop:"40px" }}>
+    <Box id="contact" sx={{ backgroundColor: '#EAD9CE', paddingTop:"40px",paddingLeft:"30px" }}>
       <Grid container spacing={4} justifyContent="center" sx={{borderBottom:"1px solid black",paddingBottom:"40px",paddingTop:"10px"}}>
         <Grid item xs={12} md={3}>
           <Typography variant="h6" gutterBottom>

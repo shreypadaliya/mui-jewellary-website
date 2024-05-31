@@ -16,13 +16,14 @@ function Header() {
   return (
     <>
        <Box py={2} display={"flex"} justifyContent={"space-between"} alignItems={"center"} sx={{backgroundColor:"#EAD9CE",paddingInline:{xs:'50px',sm:"80px",md:"130px",lg:"190px"},borderBottom: '1px solid black'}}>
-        <Box justifyContent={"space-between"} alignItems={"center"} sx={{display:{xs:'none',sm:"none",md:"flex"}}}>
-        <li style={{display:"flex",gap:"20px"}}>
-            <ul style={{padding:"0px"}}>Home</ul>
-            <ul style={{padding:"0px"}}>About Us</ul>
-            <ul style={{padding:"0px"}}>Collection</ul>
-            <ul style={{padding:"0px"}}>Contact</ul>
-        </li>
+        <Box justifyContent={"space-between"} alignItems={"center"} sx={{display:{xs:'none',sm:"none",md:"flex"},}}>
+        <l1 style={{display:"flex",gap:"20px"}}>
+            <Box sx={{'&:hover':{backgroundColor:"#785343",borderRadius:"10px"}}}><ul style={{padding:"0px"}}><a style={{color:"black",textDecoration:"none"}} href="#home">Home</a></ul></Box>
+            {/* <ul><a style={{color:"black",textDecoration:"none",padding:"0px"}} href="#home">Home</a></ul> */}
+            <Box sx={{'&:hover':{backgroundColor:"#785343",borderRadius:"10px"}}}><ul style={{padding:"0px"}}><a style={{color:"black",textDecoration:"none"}} href="#aboutus">Aboutus</a></ul></Box>
+            <Box sx={{'&:hover':{backgroundColor:"#785343",borderRadius:"10px"}}}><ul style={{padding:"0px"}}><a style={{color:"black",textDecoration:"none"}} href="#collection">Collection</a></ul></Box>
+            <Box sx={{'&:hover':{backgroundColor:"#785343",borderRadius:"10px"}}}><ul style={{padding:"0px"}}><a style={{color:"black",textDecoration:"none"}} href="#contact">Contact</a></ul></Box>
+        </l1>
         </Box>
         <Box>
         <img src={logo} alt="" />

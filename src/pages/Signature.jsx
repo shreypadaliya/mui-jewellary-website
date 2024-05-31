@@ -52,7 +52,7 @@ const Signature = () => {
         </Box>
       </Box>
       <Grid
-        container
+        container spacing={10}
         sx={{
           display: "flex",
           justifyContent: "space-between",

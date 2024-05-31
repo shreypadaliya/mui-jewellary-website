@@ -6,7 +6,7 @@ import trandimg from "../assets/images/top-view-golden-earrings-arrangement 1.pn
 const Tranding = () => {
   return (
     <>
-        <Box sx={{ display: "flex",backgroundColor:"#EAD9CE",justifyContent:"space-between",flexDirection:{xs:'column',sm:'column',md:"column",lg:"row"} }}>
+        <Box sx={{ display: "flex",backgroundColor:"#EAD9CE",justifyContent:"space-between",flexDirection:{xs:'column',sm:'column',md:"column",lg:"row"},paddingTop:"30px" }}>
       <Box sx={{ display: "flex", flexDirection: "column",justifyContent:"center",width:{xs:"100%",sm:"100%",md:"100%",lg:"50%"},textAlign:{xs:"center",sm:"center",md:"center",lg:"end"},marginRight:"40px"}}>
         <Box sx={{display:"flex",justifyContent:{xs:"center",sm:"center",md:"center",lg:"flex-end"}}}>
         <Box sx={{display:"flex",flexDirection:"column",display:"block",fontSize:"17px",lineHeight:"28px",paddingBottom:"25px",textAlign:"start",fontFamily:"Martel"}}>

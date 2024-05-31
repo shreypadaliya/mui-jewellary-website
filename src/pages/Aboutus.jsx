@@ -6,7 +6,7 @@ import Custombutton2 from "../components/Custombutton2"
 const Aboutus = () => {
   return (
     <>
-      <Box sx={{
+      <Box id="aboutus" sx={{
         display: "flex",
         flexDirection: { xs: "column", sm: "row" }, 
         backgroundColor: "#EAD9CE",

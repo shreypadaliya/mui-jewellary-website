@@ -11,7 +11,7 @@ import followimg8 from "../assets/images/Rectangle 17 (1).png";
 
 const Followus = () => {
   return (
-    <Box
+    <Box 
       sx={{
         width: "68%",
         display: "flex",
