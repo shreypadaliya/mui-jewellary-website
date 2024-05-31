@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+body{
+  font-family: "Martel Sans", sans-serif;
+} */
+
+/* src/index.css or src/App.css */
+@import url('/fonts/fonts.css');
+
+body {
+    font-family: 'Bastiken', 'Martel', sans-serif;
+}
+
+body {
+  font-family: 'Martel', serif;
+}

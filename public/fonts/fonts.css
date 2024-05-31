@@ -1,0 +1,13 @@
+/* public/fonts/fonts.css */
+@font-face {
+    font-family: 'Bastiken';
+    src: url('/fonts/Bastiken.woff2') format('woff2'),
+         url('/fonts/Bastiken.woff') format('woff'),
+         url('/fonts/Bastiken.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Bastiken', sans-serif;
+}

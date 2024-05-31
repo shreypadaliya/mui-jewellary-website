@@ -1,0 +1,15 @@
+.mycard {
+    max-width: 345px;
+    height: 400px;
+    margin: 10px;
+    color: white;
+    height: 360px;
+    width: 100%;
+}
+
+/* .mycard {
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px auto; 
+    color: white;
+} */
