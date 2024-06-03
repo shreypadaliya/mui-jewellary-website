@@ -14,8 +14,8 @@ const Custombutton2 = (props) => {
           fontFamily: "Martel",
           transition: "transform 0.3s ease-in-out",
           "&:hover": {
-            transform: "scale(1.1) translateX(10px)",
-            backgroundImage: 'linear-gradient(to right, #D4BFB5, #785343)',
+            transform: "scale(1.1)",
+            backgroundImage: 'linear-gradient(to right, #D4BFB5, #B07B54)',
           },
         }}
       >

@@ -9,7 +9,17 @@ import followimg6 from "../assets/images/Rectangle 15 (1).png";
 import followimg7 from "../assets/images/Rectangle 16 (1).png";
 import followimg8 from "../assets/images/Rectangle 17 (1).png";
 
+import { motion } from "framer-motion";
+
+
 const Followus = () => {
+
+const framerMotionProps = {
+  initial: { scale: 0 },
+  animate: { rotate: 180, scale: 1 },
+  transition: { type: "spring", stiffness: 260, damping: 20 }
+};
+
   return (
     <Box 
       sx={{
@@ -57,7 +67,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg1} alt="" />
+            <motion.div {...framerMotionProps}>
+              <img src={followimg1} alt="" />
+            </motion.div>
         </Grid>
         <Grid item xs={12} sm={6} md={3}
         sx={{
@@ -68,7 +80,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg2} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg2} alt="" />
+          </motion.div>
         </Grid>
         <Grid item xs={12} sm={6} md={3}
         sx={{
@@ -79,7 +93,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg3} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg3} alt="" />
+          </motion.div>
         </Grid>
         <Grid item xs={12} sm={6} md={3}
         sx={{
@@ -90,7 +106,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg4} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg4} alt="" />
+          </motion.div>
         </Grid>
       </Grid>
       <Grid
@@ -112,7 +130,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg5} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg5} alt="" />
+          </motion.div>
         </Grid>
         <Grid item xs={12} sm={6} md={3}
         sx={{
@@ -123,7 +143,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg6} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg6} alt="" />
+          </motion.div>
         </Grid>
         <Grid item xs={12} sm={6} md={3}
         sx={{
@@ -134,7 +156,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg7} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg7} alt="" />
+          </motion.div>
         </Grid>
         <Grid item xs={12} sm={6} md={3}
         sx={{
@@ -145,7 +169,9 @@ const Followus = () => {
             },
           },
         }}>
-          <img src={followimg8} alt="" />
+          <motion.div {...framerMotionProps}>
+            <img src={followimg8} alt="" />
+          </motion.div>
         </Grid>
       </Grid>
     </Box>
@@ -153,3 +179,5 @@ const Followus = () => {
 };
 
 export default Followus;
+
+
