@@ -110,7 +110,7 @@ const Signature = () => {
               img: {
                 transition: 'transform 0.3s ease-in-out',
                 '&:hover': {
-                  transform: 'scale(1.1) translateX(-10px) rotate(180deg)',
+                  transform: 'scale(1.1) translateX(-10px)',
                 },
               },
             }}

@@ -15,7 +15,7 @@ const Custombutton = (props) => {
           transition: "transform 0.3s ease-in-out",
           "&:hover": {
             transform: "scale(1.1) translateX(10px)",
-            backgroundColor: "#785343",
+            backgroundImage: 'linear-gradient(to right, #D4BFB5, #785343)',
           },
         }}
       >

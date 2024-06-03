@@ -98,7 +98,12 @@ const Footer = () => {
               size="small"
               sx={{ marginRight: '8px', flexGrow: 1 ,border:"none",backgroundColor:"white",borderRadius:"100px",height:"38px"}}
             />
-            <Button variant="contained" sx={{backgroundColor:"#B07B54",borderRadius:"100px",position:"absolute",right:"8px"}}>
+            <Button variant="contained" sx={{backgroundColor:"#B07B54",borderRadius:"100px",position:"absolute",right:"8px",
+            "&:hover": {
+            transform: "scale(1.1) translateX(10px)",
+            backgroundImage: 'linear-gradient(to right, #D4BFB5, #785343)',
+          },
+            }}>
               Send
             </Button>
           </Box>
