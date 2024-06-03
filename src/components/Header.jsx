@@ -67,7 +67,9 @@ function Header() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              backgroundColor:"#EAD9CE"
+              backgroundColor:"#EAD9CE",
+              marginTop:"0px",
+              marginBottom:"0px",paddingTop:'10px'
             }}
           >
             <li>About Us</li>

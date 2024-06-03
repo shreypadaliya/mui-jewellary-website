@@ -38,7 +38,7 @@ const Aboutus = () => {
         }}>
           <Box sx={{ paddingBottom: "37px", fontSize: "30px", lineHeight: "47px", fontFamily:"Bastiken", textAlign:{xs:"center",sm:"center",md:"center",lg:"left"} }}>About Us</Box>
           <Box sx={{
-            display: "flex",
+            display: {xs:"none",sm:"none",md:"none",lg:"flex"},
             flexDirection: "column",
             fontSize: "17px",
             lineHeight: "28px",fontFamily:"Martel",
@@ -55,6 +55,10 @@ const Aboutus = () => {
             <Box>heart of our business is a genuine love for jewelry-making,</Box>
             <Box>and we can't wait to share our passion with you.</Box>
           </Box>
+          <Box sx={{ display: {xs:"flex",sm:"flex",md:"flex",lg:"none"},fontSize: "17px",
+            lineHeight: "28px",fontFamily:"Martel",
+            textAlign:{xs:"center",sm:"left",md:"left",lg:"left"},
+            paddingLeft:{xs:"10px",sm:"10px",md:"0px",lg:"0px"}}} ><p>We're a group of five friends passionate about making unique and beautiful jewelry. Whether it's crafting intricate beadednecklaces or designing elegant bracelets, our creativity and skills shine through in every piece we create. We value collaboration and work together to come up with new ideas and techniques that enrich our craft. From sourcing the highest quality materials to putting the finishing touches on each piece, we take pride in every step of the process. At the heart of our business is a genuine love for jewelry-making, and we can't wait to share our passion with you.</p></Box>
           <Box sx={{ marginTop: '50px', display: 'flex', alignItems: 'flex-end', justifyContent: 'flex-end', marginRight: '180px',marginBottom:"20px"}}>
             <Custombutton2 name="Read more" />
           </Box>

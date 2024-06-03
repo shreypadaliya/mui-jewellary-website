@@ -18,7 +18,7 @@ const Imagecarousel = () => {
     const box = document.querySelector(".product-container");
     if (box) {
       let width = box.clientWidth;
-      box.scrollLeft -= 250;
+      box.scrollLeft -= 400;
       console.log(width);
     }
   };
@@ -27,7 +27,7 @@ const Imagecarousel = () => {
     const box = document.querySelector(".product-container");
     if (box) {
       let width = box.clientWidth;
-      box.scrollLeft += 250;
+      box.scrollLeft += 400;
       console.log(width);
     }
   };

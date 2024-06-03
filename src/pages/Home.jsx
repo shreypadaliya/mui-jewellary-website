@@ -20,12 +20,12 @@ const Home = () => {
           flexDirection: "column",
           justifyContent: "center",
           width: {xs:"100%",sm:"100%",md:"100%",lg:"50%"},
-          // marginLeft: { xs: "10px", sm: "10px", md: "240px" } // Adjusted margin for small and medium screens
+          // marginLeft: { xs: "10px", sm: "10px", md: "240px" } 
           marginRight: "30px"
         }}
       >
 
-     <Box sx={{display:"flex",justifyContent:"flex-end"}}>
+     <Box sx={{display:"flex",justifyContent:{xs:"flex-start",sm:"start",md:"flex-end"}}}>
      <Box
           sx={{
             fontSize: "16px",

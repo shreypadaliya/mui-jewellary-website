@@ -91,7 +91,7 @@ const Footer = () => {
           <Typography variant="body2" gutterBottom sx={{paddingBottom:"15px",fontFamily:"Martel"}}>
             Subscribing to Jewels allows you to stay <br/> updated on the latest trends and designs in the <br/>jewelry industry.
           </Typography>
-          <Box component="form" noValidate autoComplete="off" sx={{ display: 'flex',paddingBottom:"30px",position:"relative",width:"340px"}}>
+          <Box component="form" noValidate autoComplete="off" sx={{ display: 'flex',paddingBottom:"30px",position:"relative",width:"340px",marginTop:"20px"}}>
             <Box
               label="Email"
               variant="outlined"
@@ -137,7 +137,7 @@ const Footer = () => {
           <Typography variant="body2" sx={{lineHeight:"25px",fontFamily:"Martel"}}>+123456789</Typography>
         </Grid>
       </Grid>
-      <Box sx={{ textAlign: 'center', alignItems:"center",justifyContent:"center",display:"flex",flexDirection:"column" }}>
+      <Box sx={{ textAlign: 'center', alignItems:"center",justifyContent:"center",display:"flex",flexDirection:"column",paddingTop:"5px",paddingBottom:"5px" }}>
         <Typography color="textSecondary" sx={{fontFamily:"Martel"}}>
           2023 ©JEWELS. All Rights Reserved. 
         </Typography>
