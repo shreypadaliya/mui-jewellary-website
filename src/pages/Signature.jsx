@@ -16,7 +16,7 @@ const Signature = () => {
       (entries) => {
         const entry = entries[0];
         if (entry.isIntersecting) {
-          setInView(true);
+          setInView(true);  
           observer.disconnect();
         }
       },
