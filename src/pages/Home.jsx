@@ -1,4 +1,3 @@
-
 import { Box } from "@mui/material";
 import React from "react";
 import image1 from "../assets/images/pink-cheeked-redhead-woman-plays-with-her-pearl-necklace-lady-classic-white-blouse-looking-down-camera 1.png";
