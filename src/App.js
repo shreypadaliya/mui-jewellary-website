@@ -9,6 +9,7 @@ import Signature from "./pages/Signature";
 import Footer from "./components/Footer";
 import Bestsell from "./pages/Bestsell";
 import Imagecarousel from "./components/Imagecarousel";
+// import Newcollectionslider from "./components/Newcollectionslider";
 
 const App = () => {
   return (
@@ -18,13 +19,14 @@ const App = () => {
       <div className="App">
         <Imagecarousel />
       </div>
+      {/* <Newcollectionslider></Newcollectionslider> */}
       <Newcollection />
       <Bestsell></Bestsell>
       <Aboutus />
       <Signature />
       <Tranding />
       <Followus />
-      <Footer />
+      <Footer />    
     </>
   );
 };
